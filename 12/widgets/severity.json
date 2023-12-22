@@ -1,0 +1,1 @@
+[{"uid":"71f619eec2fdc30c","name":"Attempt to Retrieve Brewery with Invalid ID","time":{"start":1703278362891,"stop":1703278363136,"duration":245},"status":"passed","severity":"normal"},{"uid":"420fbc96d2018f6e","name":"Retrieve Brewery Successfully","time":{"start":1703278362486,"stop":1703278362891,"duration":405},"status":"passed","severity":"normal"}]
