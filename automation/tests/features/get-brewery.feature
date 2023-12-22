@@ -1,4 +1,5 @@
 @GetBrewery
+@ComponentTests
 Feature: Component Test for the Get Brewery Endpoint
 
 Scenario: Retrieve Brewery Successfully
@@ -10,7 +11,7 @@ Scenario: Retrieve Brewery Successfully
 Scenario: Attempt to Retrieve Brewery with Invalid ID
     Given an invalid brewery ID
     When a request is made to retrieve the brewery
-    Then the "getBrewery" request should fail with a status of "NOT_FOUND"
+    Then the "getBrewery" request should fail with a status of "Not Found"
 
 
 

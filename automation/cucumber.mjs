@@ -1,5 +1,5 @@
 export default {
-    format: ['html:cucumber-report.html'],
+    format: ['html:report/cucumber-report.html'],
     paths: ['tests/features/*.feature'],
     require: [ 
         'tests/step-definitions/**/*.steps.ts',

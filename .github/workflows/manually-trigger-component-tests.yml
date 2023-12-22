@@ -1,0 +1,19 @@
+name: Trigger Open Breweery Component Tests
+on:
+    workflow_dispatch:
+      inputs:
+        cucumber-tags:
+          description: 'Test scenario tags'
+          required: true
+          default: '@ComponentTest'
+          type: string
+
+jobs:
+    execute-tests:
+      name: Run Open Brewery Component Tests
+      permissions: 
+        actions: write
+        contents: write
+      uses: ./.github/workflows/_run-component-tests-workflow.yml
+      with:
+        cucumber-tag: ${{ inputs.cucumber-tags }}

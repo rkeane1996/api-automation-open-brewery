@@ -19,8 +19,8 @@ Then(
   function (this: CustomWorld, res: string, statusString: string) {
     const asResponse = `${res} Response`;
     const { status, statusText } = this.app.world.fromPhrase(asResponse);
-    const constStatus = asConst(statusString);
-    assert.equal(statusText, constStatus);
+    //const constStatus = asConst(statusString);
+    assert.equal(statusText, statusString);
     assert.equal(status, 404);
   }
 );

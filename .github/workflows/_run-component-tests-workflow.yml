@@ -1,0 +1,47 @@
+name: Execute Playwright Automation Tests
+on:
+    workflow_call:
+        inputs:
+            cucumber-tag:
+                required: true
+                description: Add the cucumber tag of the tests you would like to run.
+                type: string
+
+jobs: 
+    execute-component-tests:
+        name: Execute Component Tests
+        runs-on: ubuntu-22.04
+        permissions: 
+            actions: write
+            contents: write
+            id-token: write
+            pages: write
+        steps:
+        - uses: actions/checkout@v3
+
+        - name: Set Up Node
+          uses: ./.github/actions/setup-node
+          with:
+            working-directory: ./automation
+        
+        - name: Generate .ENV file
+          working-directory: ./automation
+          shell: bash
+          run: |
+            echo 'API_URL=${{ vars.API_URL }}' > .env
+
+        - name: Execute Tests
+          working-directory: ./automation
+          run: 
+            npx cucumber-js --tags "${{ inputs.cucumber-tag }}"
+        
+        - name: upload artifact
+          if: always()
+          uses: actions/upload-artifact@v3
+          with: 
+            path: 'automation/report/'
+
+
+
+
+
