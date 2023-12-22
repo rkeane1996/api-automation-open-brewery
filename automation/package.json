@@ -7,7 +7,7 @@
     "-------- Code Checks --------": "",
     "check": "npm run check:ts && npm run check:lint",
     "check:ts": "tsc --noEmit",
-    "check:lint": "eslint \"src/**/*.ts\" \"test/step-definitions/**/*.steps.ts\" --max-warnings=0",
+    "check:lint": "eslint \"src/**/*.ts\" \"tests/step-definitions/**/*.steps.ts\" --max-warnings=0",
     "check:lint:fix": "npm run check:lint -- --fix"
   },
   "repository": {
@@ -21,6 +21,8 @@
   },
   "homepage": "https://github.com/rkeane1996/api-automation-open-brewery#readme",
   "devDependencies": {
+    "@types/lodash": "^4.14.202",
+    "@types/url-assembler": "^2.1.4",
     "typescript": "^5.3.3"
   },
   "dependencies": {
@@ -29,12 +31,15 @@
     "@typescript-eslint/eslint-plugin": "^6.14.0",
     "@typescript-eslint/parser": "^6.14.0",
     "axios": "^1.6.2",
+    "dotenv": "^16.3.1",
     "eslint": "^8.56.0",
     "eslint-config-prettier": "^9.1.0",
     "eslint-plugin-prettier": "^5.0.1",
-    "jest": "^29.7.0",
+    "lodash": "^4.17.21",
     "myzod": "^1.11.0",
     "prettier": "^3.1.1",
-    "ts-node": "^10.9.2"
+    "ts-node": "^10.9.2",
+    "tsyringe": "^4.8.0",
+    "url-assembler": "^2.1.1"
   }
 }
