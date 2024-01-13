@@ -1,4 +1,4 @@
-import { BreweryType } from './brewery.types';
+import { BreweryType } from '../types/brewery.types';
 
 export class BreweryDto implements BreweryType {
   id!: string;

@@ -1,12 +1,12 @@
-name: Trigger Open Breweery Component Tests
+name: Trigger Open Brewery Component Tests
 on:
-    workflow_dispatch:
-      inputs:
-        cucumber-tags:
-          description: 'Test scenario tags'
-          required: true
-          default: '@ComponentTest'
-          type: string
+  workflow_dispatch:
+    inputs:
+      cucumber-tags:
+        description: 'Test scenario tags'
+        required: true
+        default: '@ComponentTest'
+        type: string
 
 jobs:
     execute-tests:

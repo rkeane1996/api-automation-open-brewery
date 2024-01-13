@@ -1,5 +1,5 @@
 import axios, { AxiosResponse } from 'axios';
-import { APIResponse } from './api-response';
+import { APIResponse } from '../utils/api-response';
 import { HTTPMethod, Json, ServiceClientConfig } from './service.types';
 import URLBuilder from 'url-assembler';
 

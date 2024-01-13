@@ -4,7 +4,7 @@ import {
   InternalAxiosRequestConfig,
   RawAxiosResponseHeaders
 } from 'axios';
-import { Schema } from './service.types';
+import { Schema } from '../client/service.types';
 
 export class APIResponse<T> {
   data: T;

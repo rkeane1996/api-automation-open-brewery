@@ -1,4 +1,4 @@
 import { Infer } from 'myzod';
-import { BrewerySchema } from './brewery.schema';
+import { BrewerySchema } from '../schema/brewery.schema';
 
 export type BreweryType = Infer<typeof BrewerySchema>;

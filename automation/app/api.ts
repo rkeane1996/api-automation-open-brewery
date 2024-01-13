@@ -1,4 +1,4 @@
-import { BreweryClient } from '../client/brewery-client';
+import { BreweryClient } from '../src/client/brewery-client/brewery-client'
 
 export class Api {
   constructor() {
