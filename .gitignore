@@ -132,3 +132,4 @@ dist
 
 # HTML Cucumber Report
 cucumber-report.html
+OUTPUT.TXT
