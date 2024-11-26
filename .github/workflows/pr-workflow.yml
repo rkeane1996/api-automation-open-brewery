@@ -23,7 +23,9 @@ jobs:
         uses: ./.github/workflows/_check-code-workflow.yml
     
     run_component_tests:
-        needs: check_code
+        needs: 
+            - check_code
+            - pr_validation
         name: Run Component Tests
         permissions: 
             actions: write
