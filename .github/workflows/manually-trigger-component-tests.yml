@@ -1,5 +1,7 @@
 name: Trigger Open Brewery Component Tests
 on:
+  schedule:
+    - cron: "0 19 * * *"
   workflow_dispatch:
     inputs:
       cucumber-tags:
