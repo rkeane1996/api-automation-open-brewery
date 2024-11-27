@@ -18,4 +18,4 @@ jobs:
         contents: write
       uses: ./.github/workflows/_run-component-tests-workflow.yml
       with:
-        cucumber-tag: ${{ inputs.cucumber-tags }}
+        cucumber-tag: ${{ inputs.cucumber-tags || '@ComponentTests' }}
