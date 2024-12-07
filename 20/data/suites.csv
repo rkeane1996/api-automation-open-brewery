@@ -1,0 +1,6 @@
+"Status","Start Time","Stop Time","Duration in ms","Parent Suite","Suite","Sub Suite","Test Class","Test Method","Name","Description"
+"passed","Sat Dec 07 19:15:14 GMT 2024","Sat Dec 07 19:15:14 GMT 2024","261","","Retrieve Brewery Successfully","","","","Retrieve Brewery Successfully",""
+"passed","Sat Dec 07 19:15:14 GMT 2024","Sat Dec 07 19:15:14 GMT 2024","78","","Retrieve a Single Random Brewery","","","","Retrieve a Single Random Brewery",""
+"passed","Sat Dec 07 19:15:14 GMT 2024","Sat Dec 07 19:15:14 GMT 2024","40","","Retrieve Multiple Random Breweries","","","","Retrieve Multiple Random Breweries",""
+"passed","Sat Dec 07 19:15:14 GMT 2024","Sat Dec 07 19:15:14 GMT 2024","43","","Attempt to Retrieve Random Breweries with Out-of-Bounds Size","","","","Attempt to Retrieve Random Breweries with Out-of-Bounds Size",""
+"passed","Sat Dec 07 19:15:14 GMT 2024","Sat Dec 07 19:15:14 GMT 2024","74","","Attempt to Retrieve Brewery with Invalid ID","","","","Attempt to Retrieve Brewery with Invalid ID",""
