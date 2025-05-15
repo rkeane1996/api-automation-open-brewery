@@ -18,5 +18,4 @@ Feature: Component Test for the Random Brewery Endpoint
   Scenario: Attempt to Retrieve Random Breweries with Out-of-Bounds Size
     Given a request is made to retrieve random breweries with an out-of-bounds size parameter
     When a request is made to retrieve a random brewery
-    Then the "getRandomBrewery" request should succeed with a status of "OK"
-    Then max breweries per page are returned
+    Then the "getRandomBrewery" request should fail with a status of "BAD REQUEST"
