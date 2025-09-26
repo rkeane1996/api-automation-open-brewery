@@ -1,0 +1,1 @@
+{"total":2,"items":[{"uid":"381e7a4e71ee49726dcb8dfd9e02891f","name":"Component Test for the Random Brewery Endpoint","statistic":{"failed":0,"broken":0,"skipped":0,"passed":3,"unknown":0,"total":3}},{"uid":"15bf3d516d1e2e57d8fe1ee3d23f7285","name":"Component Test for the Get Brewery Endpoint","statistic":{"failed":0,"broken":0,"skipped":0,"passed":2,"unknown":0,"total":2}}]}
