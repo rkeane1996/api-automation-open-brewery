@@ -1,0 +1,6 @@
+"DESCRIPTION","DURATION IN MS","NAME","PARENT SUITE","START TIME","STATUS","STOP TIME","SUB SUITE","SUITE","TEST CLASS","TEST METHOD"
+"","338","Retrieve Brewery Successfully","","Sat Mar 14 19:29:46 UTC 2026","passed","Sat Mar 14 19:29:46 UTC 2026","","Retrieve Brewery Successfully","",""
+"","244","Retrieve a Single Random Brewery","","Sat Mar 14 19:29:46 UTC 2026","passed","Sat Mar 14 19:29:47 UTC 2026","","Retrieve a Single Random Brewery","",""
+"","226","Attempt to Retrieve Brewery with Invalid ID","","Sat Mar 14 19:29:46 UTC 2026","passed","Sat Mar 14 19:29:46 UTC 2026","","Attempt to Retrieve Brewery with Invalid ID","",""
+"","188","Retrieve Multiple Random Breweries","","Sat Mar 14 19:29:47 UTC 2026","passed","Sat Mar 14 19:29:47 UTC 2026","","Retrieve Multiple Random Breweries","",""
+"","165","Attempt to Retrieve Random Breweries with Out-of-Bounds Size","","Sat Mar 14 19:29:47 UTC 2026","passed","Sat Mar 14 19:29:47 UTC 2026","","Attempt to Retrieve Random Breweries with Out-of-Bounds Size","",""
