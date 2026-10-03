@@ -1,0 +1,6 @@
+"DESCRIPTION","DURATION IN MS","NAME","PARENT SUITE","START TIME","STATUS","STOP TIME","SUB SUITE","SUITE","TEST CLASS","TEST METHOD"
+"","274","Attempt to Retrieve Brewery with Invalid ID","","2026-10-03","passed","2026-10-03","","Attempt to Retrieve Brewery with Invalid ID","",""
+"","285","Attempt to Retrieve Random Breweries with Out-of-Bounds Size","","2026-10-03","passed","2026-10-03","","Attempt to Retrieve Random Breweries with Out-of-Bounds Size","",""
+"","282","Retrieve Multiple Random Breweries","","2026-10-03","passed","2026-10-03","","Retrieve Multiple Random Breweries","",""
+"","333","Retrieve Brewery Successfully","","2026-10-03","passed","2026-10-03","","Retrieve Brewery Successfully","",""
+"","326","Retrieve a Single Random Brewery","","2026-10-03","passed","2026-10-03","","Retrieve a Single Random Brewery","",""
